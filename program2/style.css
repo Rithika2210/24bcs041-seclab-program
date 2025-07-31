@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 2px;
+}
+
+input, button {
+  padding:20px ;
+  margin: 20px;
+  border-radius: 25px;
+  font-size: 10;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+input {
+  width: 180px;
+  text-align: center;
+  background: #fff;
+  color: #333;
+}
+
+button {
+  background: #ff6f91;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff4a6e;
+}
+
+p {
+  font-weight: 600;
+  margin-top: 1rem;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
